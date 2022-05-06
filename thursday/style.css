@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    /* position: relative; */
+    top: 37px;
+    width: 70%;
+    height: 550px;
+    /* border: 4px solid blue; */
+    z-index: 1;
+}
+
+.header {
+    width: 980px;
+    height: 50px;
+    border: 10px;
+    border-bottom: 1px solid black;
+    
+   
+
+
+}
+
+input[type="search"]{
+    border-radius: 20px;
+    border: 1px solid rgb(111, 105, 105, 0.5);
+    width: 560px;
+    height: 36px;
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 7px;
+    
+}
+input::placeholder{
+    color:rgb(111, 105, 105, 0.5);
+}
+
+.fa-search{
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+    margin-left: -545px;
+}
+.logo{
+ 
+    width: 238px;
+    height: 35px;
+    border: 1px solid rgb(111, 105, 105, 0.5);
+    margin-left: 732px;
+    margin-top: -37px;
+}
+.logo-p {
+    margin-left: 90px;
+    margin-top: 10px;
+     color: rgb(197, 191, 191);
+   
+}
+.pro{
+    /* background-color: red;
+    border-radius: 50%; */
+    
+    margin-left: 20px;
+    float: left;
+    margin-top: 8px;
+    
+}
+.profile{
+    width: 30px;
+    height: 30px;
+}
+
+.fa-shopping-cart{
+   font-size: 20px;
+    margin-left: 7px;
+    margin-top: 13px;
+    float: left;
+}
+.fa-envelope{
+    font-size: 15px;
+    margin: 15px 12px;
+    float: left;
+
+}
+.wrapper {
+    width: 75%;
+    height: 676px;
+    border: 2px;
+    border-color: black;
+    border-right: 1px solid #000;
+}
+.circles{
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction:row ;
+   align-items: center;
+   padding-top: 20px;
+   
+}
+.c {
+   width: 65px;
+   height: 65px; 
+   border: 1px solid gray;
+   border-radius: 50%;
+}
+.box-one{
+    display: flex;
+    justify-content: space-around;
+    
+ 
+}
+ .bo{
+     width: 200px;
+     height: 250px;
+     /* border: 1px solid gray; */
+     margin-top: 70px;
+     font-size: 13px;
+     margin-left: 10px;
+     padding-left: 20px
+    
+
+ }
+
+ .icon-name{
+     font-size: 13px;
+     margin-top: 80px;
+     margin-left: 2px;
+     text-align: center;
+ }
+
+img{
+    width: 138px;
+    height: 122px;
+}
+.bo-four{
+    background-image: url("/tootfarangi.jpg");
+    z-index: 2;
+}
+.cone{
+    background-image: url("/Shopping\ bag\ free\ vector\ icons\ designed\ by\ Darius\ Dan.png");
+    background-size: cover;
+}
+.ctwo{
+    background-image: url("/Groceries\ icon\ vector\ sign\ and\ symbol\ isolated\ on\ white\ background\,\ Groceries\ logo\ concept.jpg");
+    background-size: contain;
+}
+.cthree{
+    background-image: url("/conni.jpg");
+    background-size: contain;
+}
+.cfour{
+    background-image: url("/Luxury\ Gold\ Spoon\ Template\ Download\ on\ Pngtree.jpg");
+    background-size: contain;
+}
+.cfive{
+    background-image: url("/Colour\ Full\ Pink\ Reward\ Gift\ Icon\ For\ Game\ Ui_\ Premium.jpg");
+    background-size: contain;
+}
+.csix{
+    background-image: url("/80332057-alcohol-drinks-color-vector-icon.webp");
+    background-size: cover;
+}
+.cseven{
+    background-image: url("/2eb671241b53c8dc2863fd6a30fffce8.jpg");
+    background-size: cover;
+}
+.ceight{
+    background-image: url("/snap.webp");
+    background-size:contain;
+}
+
+.add{
+    border-radius: 20px;
+    position: absolute;
+    top: 220px;
+    margin-left: 80px;
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgb(174, 172, 172);
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    color: blue;
+    font-size: 10px;
+}
+.box-two{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.add2{
+    border-radius: 20px;
+    position: absolute;
+    top: 460px;
+    margin-left: 80px;
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgb(174, 172, 172);
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer; 
+}
+.bt{
+
+     width: 200px;
+     height: 250px;
+     /* border: 1px solid gray; */
+     margin-top: -7px;
+     font-size: 13px;
+     margin-left: 10px;
+     padding-left: 20px
+
+}
+.btone{
+    float: left;
+}
+.bi-stars{
+    font-size: 10px;
+}
+.bi-lightning-charge-fill{
+    color: rgb(79, 218, 74);
+    font-size: 10px;
+
+}
